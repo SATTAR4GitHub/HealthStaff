@@ -34,7 +34,7 @@ namespace Staff.Models
         public string Gender { get; set; }
 
         [Required]
-        [Display(Name = "Health Card")]
-        public string HealthCardNumber { get; set; }
+        [Display(Name = "Health Card Number")]
+        public string HealthCardNumber { get; set; } 
     }
 }
